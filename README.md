@@ -1,4 +1,4 @@
-FIRST PROPOSAL is online in your wallet! Please vote!
+
 
 
 # Masternode Setup - Step by step guide
