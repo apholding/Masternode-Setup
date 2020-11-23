@@ -32,10 +32,10 @@ getaccountaddress "MN1"
 
 <table>
 <tr><td>example</td></tr>
-<tr><td>AL75xQoKGrvgwdT5QaafVwxYihgvfdo7Xt</td></tr>
+<tr><td>GL75xQoKGrvgwdT5QaafVwxYihgvfdo7Xt</td></tr>
 </table>
 
-send exact 50000 Coins to the address (confirmation need: 15) 
+send exact 75000 Coins to the address (confirmation need: 15) 
 
 
 # Installation: for Security use SSH on your vps!!
@@ -86,16 +86,13 @@ sudo apt-get update
 download the wallet-client, tx and daemon file
 
 ```bash
-sudo wget https://github.com/apholding/APH-Wallets/raw/master/apholdingd
+sudo wget https://github.com/apholding/APH-Wallets/releases/download/v1042/APH-1042-Linux-Daemon.zip
 ```
 fillout the password of your username and press enter
 
 
 ```bash
-sudo wget https://github.com/apholding/APH-Wallets/raw/master/apholding-tx
-```
-```bash
-sudo wget https://github.com/apholding/APH-Wallets/raw/master/apholding-cli
+unzip APH-1042-Linux-Daemon.zip
 ```
 ```bash
 sudo chmod +x apholdingd
@@ -173,7 +170,7 @@ getmasternodeoutputs
 <table>
 <tr><td>example for masternode in masternode.conf file </td></tr>
 <tr><td>mn1 IP_OF_THE_SERVER:14198 MASTERNODE_GENKEY TX_HASH TX_OUTPUTS</td></tr>
-<tr><td>mn1 123.12.15.14:14198 652FzuBw4v6ijn8fPw8843oh1NmSWBDpSLR1nipyCxkU73auGBx c8ab8aa43d50cae6bf2b89b09f124bd83beaec00537884be8bae6585d1922 1</td></tr>
+<tr><td>mn1 123.12.15.14:16364 652FzuBw4v6ijn8fPw8843oh1NmSWBDpSLR1nipyCxkU73auGBx c8ab8aa43d50cae6bf2b89b09f124bd83beaec00537884be8bae6585d1922 1</td></tr>
 </table>
 
 save file, reopen wallet and start in debug console !
